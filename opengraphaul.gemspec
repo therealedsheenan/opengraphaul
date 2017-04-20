@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sheenan Tenepre"]
   spec.email         = ["sheenantenepre@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{opengraphaul is a library for parsing open graph protocol.}
+  spec.description   = %q{opengraphaul is a library for parsing open graph protocol. This uses nokogiri to parse the data from a specific URL.}
+  spec.homepage      = "https://github.com/therealedsheenan/opengraphaul"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
