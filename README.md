@@ -19,7 +19,20 @@ And then execute:
 Or install it yourself as:
 
     $ gem install opengraphaul
+    
 
+## How to
+
+```
+ogs = Opengraphaul::Base.new(YOUR_URL)
+```
+This method returns an object, You can access open graph objects by:
+```
+ogs.og_image
+ogs.title
+ogs.type
+ogs.url
+```
 
 ## Development
 
@@ -35,4 +48,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[there
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
 
