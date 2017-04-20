@@ -1,4 +1,8 @@
 # Opengraphaul
+Simple library for parsing Open Graph protocol information from web sites.
+
+## Under the hood
+This is gem is dependent to Nokogiri.
 
 ## Installation
 
