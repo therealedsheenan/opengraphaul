@@ -20,9 +20,6 @@ Or install it yourself as:
 
     $ gem install opengraphaul
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
