@@ -1,5 +1,4 @@
-# Opengraphaul
-[![Build Status](https://travis-ci.org/therealedsheenan/opengraphaul.svg?branch=master)](https://travis-ci.org/therealedsheenan/opengraphaul)
+# Opengraphaul[![Build Status](https://travis-ci.org/therealedsheenan/opengraphaul.svg?branch=master)](https://travis-ci.org/therealedsheenan/opengraphaul)
 Simple library for parsing Open Graph protocol information from web sites.
 
 ## Under the hood
