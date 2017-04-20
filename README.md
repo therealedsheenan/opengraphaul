@@ -1,4 +1,8 @@
-# Opengraphaul
+# Opengraphaul[![Build Status](https://travis-ci.org/therealedsheenan/opengraphaul.svg?branch=master)](https://travis-ci.org/therealedsheenan/opengraphaul)
+Simple library for parsing Open Graph protocol information from web sites.
+
+## Under the hood
+This is gem is dependent to Nokogiri.
 
 ## Installation
 
@@ -16,9 +20,6 @@ Or install it yourself as:
 
     $ gem install opengraphaul
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
