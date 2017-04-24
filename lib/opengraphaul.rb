@@ -14,6 +14,15 @@ module Opengraphaul
       @og_type = process("meta[property='og:type']")
       @og_url = process("meta[property='og:url']")
 
+
+      # optional metadata
+      @og_audio = process("meta[property='og:audio']")
+      @og_audio = process("meta[property='og:description']")
+      @og_audio = process("meta[property='og:determiner']")
+      @og_audio = process("meta[property='og:local']")
+      @og_audio = process("meta[property='og:local:alternate']")
+      @og_audio = process("meta[property='og:site_name']")
+      @og_audio = process("meta[property='og:video']")
     end
 
     private
