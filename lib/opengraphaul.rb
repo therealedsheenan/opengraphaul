@@ -17,12 +17,12 @@ module Opengraphaul
 
       # optional metadata
       @og_audio = process("meta[property='og:audio']")
-      @og_audio = process("meta[property='og:description']")
-      @og_audio = process("meta[property='og:determiner']")
-      @og_audio = process("meta[property='og:local']")
-      @og_audio = process("meta[property='og:local:alternate']")
-      @og_audio = process("meta[property='og:site_name']")
-      @og_audio = process("meta[property='og:video']")
+      @og_description = process("meta[property='og:description']")
+      @og_determiner = process("meta[property='og:determiner']")
+      @og_local = process("meta[property='og:local']")
+      @og_local_alternate = process("meta[property='og:local:alternate']")
+      @og_site_name = process("meta[property='og:site_name']")
+      @og_video = process("meta[property='og:video']")
     end
 
     private
