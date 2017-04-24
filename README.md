@@ -29,9 +29,20 @@ ogs = Opengraphaul::Base.new(YOUR_URL)
 This method returns an object, You can access open graph objects by:
 ```
 ogs.og_image
-ogs.title
-ogs.type
-ogs.url
+ogs.og_title
+ogs.og_type
+ogs.og_url
+```
+
+Additional Open graph data:
+```
+og_audio
+og_description
+og_determiner
+og_local
+og_local_alternate
+og_site_name
+og_video
 ```
 
 ## Development
